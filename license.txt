@@ -1,0 +1,18 @@
+"build": {
+  "appId": "vuetify-electron",
+  "win": {
+    "target": [
+      "nsis"
+    ],
+    "icon": "src/icon.ico",
+    "requestedExecutionLevel": "requireAdministrator"
+  },
+  "nsis": {
+    "installerIcon": "src/icon.ico",
+    "uninstallerIcon": "src/icon.ico",
+    "uninstallDisplayName": "vuetify-electron",
+    "license": "license.txt",
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true
+  }
+},
