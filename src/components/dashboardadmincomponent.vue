@@ -790,7 +790,7 @@ style="background-color:white" elevation="0">
             </p>
               </template>
                 <v-card
-                 elevation="20"
+                 elevation="5"
                   width="330"
                   min-height="100"
                   rounded="xl"
